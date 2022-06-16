@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .contact-info {
+  width: 22%;
+  height: 90%;
+  border-radius: 5px;
+  background-color: #312e81;
+  color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.container .contact-info h2 {
+  margin-top: 40px;
+  padding-left: 20px;
+}
+
+.container .contact-info .information {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.container .contact-info .information p {
+  margin: 0;
+}
+
+.container .contact-info .information span {
+  color: rgba(255, 255, 255, 0.58);
+  font-size: 12px;
+}
+
+.container .contact-info .social-icons {
+  margin-top: auto;
+  padding-left: 20px;
+}
+
+.container .contact-info .social-icons i {
+  color: white;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.container .contact-info .social-icons a {
+  text-decoration: none;
+}
+
+.container .contact-form {
+  width: 40%;
+  height: 84%;
+  padding: 0 20px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 45px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 45px;
+}
+
+.container .contact-form .title {
+  margin: 50px 0 20px 0;
+}
+
+.container .contact-form .title hr {
+  height: 1px;
+  background-color: #cfcbcb;
+  border: none;
+}
+
+.container .contact-form .input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  margin-bottom: 20px;
+}
+
+.container .contact-form .input-container .input {
+  height: 30px;
+  border: 1px solid #cfcbcb;
+  border-radius: 5px;
+}
+
+.container .contact-form .input-container input:focus {
+  outline: none;
+}
+
+.container .contact-form .input-container .message {
+  height: 80px;
+  border: 1px solid #cfcbcb;
+  border-radius: 5px;
+}
+
+.container .contact-form .btn {
+  width: 100%;
+  height: 40px;
+  background-color: #312e81;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=app.css.map */
